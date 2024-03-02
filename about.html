@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+    <meta charset="utf-8" />
+    <title>شركة الجودة العالية التجارية</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content name="keywords" />
+    <meta content name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500&display=swap" rel="stylesheet" />
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+
+
+</div>
+
+
+
+<!-- بداية الدوران -->
+<div id="spinner"
+    class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div class="spinner-border text-primary" role="status"></div>
+</div>
+<!-- نهاية الدوران -->
+
+<!-- بداية شريط التنقل -->
+<div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
+    <div class="top-bar row gx-0 align-items-center d-none d-lg-flex" dir="ltr">
+        <div class="col-lg-7 px-5 text-start">
+            <small><i class="fa fa-map-marker-alt m-2"></i>الرياض العزيزية 7393 ش امان بن الحكم 6501</small>
+            <small class="mb-4"><i class="fa fa-envelope m-2"></i>highquality.sa@gmail.com</small>
+        </div>
+        <div class="col-lg-5 px-5 text-end">
+            <small></small>
+            <a class="text-body ms-1" href><i class="fab fa-facebook-f"></i></a>
+            <a class="text-body ms-1" href><i class="fab fa-twitter"></i></a>
+            <a class="text-body ms-1" href><i class="fab fa-linkedin-in"></i></a>
+            <a class="text-body ms-1" href><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+        <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+            <h1 class="fw-bold text-primary m-0">
+                <span data-i18n="brandName"></span> <span class="text-secondary" data-i18n="brandSubName"> </span>
+            </h1>
+
+        </a>
+
+
+        <button type="button" class="navbar-toggler ms-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link " data-i18n="home"></a>
+                <a href="about.html" class="nav-item nav-link active" data-i18n="about_us"> </a>
+                <a href="about.html#penfEn" class="nav-item nav-link" data-i18n="efficient"></a>
+                <a href="about.html#spc" class="nav-item nav-link" data-i18n="features"></a>
+                <a href="product.html" class="nav-item nav-link" data-i18n="products"></a>
+                <a href="testimonial.html#sop" class="nav-item nav-link" data-i18n="branches"></a>
+
+
+
+                <a href="contact.html" class="nav-item nav-link" data-i18n="contact_us"> </a>
+                <!-- <div class="language nav-item nav-link ">
+
+                    <select id="select">
+
+                        <option value="english" onclick="changeLanguage('en')" data-image="us.png">English</option>
+                        <option value="arabic" onclick="changeLanguage('ar')" data-image="sa.png">العربية</option>
+                    </select>
+                     <img src="img/sa.png"  id="img-flag" style="width: 20px;" alt="">
+
+                    <i class="fa fa-language" aria-hidden="true"></i>
+
+                </div> -->
+
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-i18n="language" id="languageLink"></a>
+                    <div class="dropdown-menu m-0" id="languageDropdown">
+                        <a href="#" value="en" onclick="changeLanguage('en')"  class="dropdown-item">
+                            English <img src="img/us.png" alt="Language Flag" class=" float-end" style="width: 30px;" />
+                        </a>
+                        <a href="#" value="ar" onclick="changeLanguage('ar')" class="dropdown-item">
+                            العربية <img src="img/sa.png" class=" float-end" alt="Language Flag" style="width: 30px; " />
+                        </a>
+                    </div>
+                </div>
+                
+                <img src="" alt="Language Flag" class="language-flag"
+                    style="width: 30px;height: 20px;margin-top:25px" />
+            </div>
+
+        </div>
+
+    </nav>
+</div>
+<!-- نهاية شريط التنقل -->
+<div>
+
+
+    <div id="container">
+
+
+        <div class="ar">
+    
+    
+    <!-- بداية رأس الصفحة -->
+    <div class="container-fluid page-header wow fadeIn" dir="ltr" data-wow-delay="0.1s">
+        <div class="container">
+            <h1 class="display-3 mb-3 animated slideInDown">! من نحن </h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb mb-0">
+                    <li class="breadcrumb-item"><a class="text-body" href="#">الرئيسية</a></li>
+                    <li class="breadcrumb-item"><a class="text-body" href="#">الصفحة</a></li>
+                    <li class="breadcrumb-item text-dark active" aria-current="page"> من نحن</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- نهاية رأس الصفحة -->
+
+    <!-- بداية حول -->
+    <div class="container-xxl py-5" id="about">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="about-img position-relative overflow-hidden p-5 pe-0">
+                        <img class="img-fluid w-100" src="img/about2.png" />
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn " data-wow-delay="0.5s">
+                    <h1 class="display-6 mb-4  fw-bold  m-0"> شركة
+                        <span class="text-primary"> الجودة</span> <span class="text-secondary">العالية </span> <span
+                            class="text-primary"> التجارية</span> هي
+
+                    </h1>
+                    <p class="mb-4 text-center fw-bold">
+                        شركة رائدة في مجال بيع وتوزيع الخضار والفواكة والمواد الغذائية بالجملة في <span
+                            class="text-primary">المملكة العربية
+                            السعودية</span>
+                    </p>
+                    <p>
+                        <i class=" ms-1"></i>تأسست في عام <span class="text-secondary    ">2010 م </span>ومنذ
+                        ذلك الحين بنت سمعتها على مر السنوات كشريك استراتيجي
+                        <i class=" ms-1"></i><span class="text-primary  ">موثوق به</span> في قطاع التموين
+                        وتجارة الخضار والفواكة
+                        والمواد الغذائية...حيث تركز جهودها
+                        <i class=" ms-1"></i> على توفير منتجات ذات <span class="text-primary  ">جودة
+                            عالية</span> وأسعار مناسبة
+                    </p>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- نهاية حول -->
+
+
+    <!-- بداية الميزات -->
+    <div class="container-fluid bg-light bg-icon my-5 py-6" id="penf">
+        <div class="container">
+            <div class="section-header text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s"
+                style="max-width: 500px">
+                <h1 class="display-5 mb-3">الكفائة ومعايير الجودة</h1>
+
+                <p>
+
+
+                    تشير السياسة الزمنية للشركة إلى قيمتها للوقت. حيث تضمن الالتزام بالجودة والسعر المناسب تلبية توقعات
+                    العملاء بشكل فعال. تمتلك الشركة مستودعات نموذجية مكيفة متوافقة مع مواصفات ومعايير هيئة الغذاء
+                    والدواء.
+                    ومقاييس شهادة <span class="text-primary"> الايزو ٩٠٠١، ٢٢٠٠٠ </span>وتمتلك أسطولاً حديثا من الشاحنات
+                    والباصات المكيفة.
+                    مما يسهم في الحفاظ على درجة حرارة البضائع في المستوى المطلوب. وبالتالي ضمان جودتها وضمان أن المنتجات
+                    الطازجة والأفضل فقط هي التي تصل إلى المستهلك النهائي. وتضمن خبرتنا التي لا مثيل لها في مجال الخدمات
+                    اللوجستية وإدارة سلسلة التوريد عمليات تسليم فعالة
+                    وموثوقة للعملاء في جميع أنحاء المنطقة.
+                    ويعكس الفريق البشري للشركة تنوعها، حيث يضم <span class="text-secondary"> أكثر من ١٠٠ موظف </span> من
+                    جنسيات متعددة، <span class="text-primary">جميعهم ذوو خبرة
+                        وكفاءة</span> في مجال تخصصاتهم.
+                    ويفضل شبكتنا القوية من الموردين والمزارع، تقدم خدماتنا بمهنية وثمان.
+                    مما يحزر <span class="text-primary">مصداقيتنا والثقة في جودة منتجاتنا</span> ...
+                </p>
+            </div>
+            <div class="py-5" id="spc">
+
+            </div>
+            <div class="row g-4 ">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="bg-white text-center h-100 p-4 p-xl-5">
+                        <img class="img-fluid mb-4" src="img/icon-1.png" alt />
+                        <h4 class="mb-3">عملية طبيعية</h4>
+                        <p class="mb-4">
+                            عملية زراعة الخضروات والفواكه بشكل طبيعي تعتمد على استخدام أساليب زراعية صديقة للبيئة وخالية
+                            من المبيدات الكيميائية، مما يحقق منتجات صحية وطبيعية ذات جودة عالية ويحفظ التوازن البيئي.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="bg-white text-center h-100 p-4 p-xl-5">
+                        <img class="img-fluid mb-4" src="img/icon-2.png" alt />
+                        <h4 class="mb-3">منتجات عضوية</h4>
+                        <p class="mb-4">
+
+                            المنتجات العضوية تمثل خيارًا صحيًا ومستدامًا، حيث تنمو بطرق تحترم البيئة وتستخدم أساليب
+                            زراعية خالية من المواد الكيميائية الضارة. يتميز هذا النهج بتوفير منتجات طبيعية ذات جودة
+                            عالية، وتحترم التنوع البيولوجي، وتقدم قيمة غذائية ممتازة. </p>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="bg-white text-center h-100 p-4 p-xl-5">
+                        <img class="img-fluid mb-4" src="img/icon-3.png" alt />
+                        <h4 class="mb-3">آمن بيولوجيًا</h4>
+                        <p class="mb-4">
+
+                            المصطلح "آمن بيولوجيًا" يشير إلى أن المنتجات تنتج باستخدام أساليب زراعية عضوية تحافظ على صحة
+                            التربة وتحمي البيئة، مما يسهم في تقديم منتجات غذائية خالية من المبيدات الكيميائية والمواد
+                            الضارة. </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- نهاية الميزات -->
+
+
+    <!-- بداية زيارة الشركة -->
+    <div class="py-5" id="goal">
+
+        <div class="container-fluid bg-primary bg-icon mt-5 py-6">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-md-7 wow fadeIn" data-wow-delay="0.1s">
+                        <h1 class="display-5 text-white mb-3"> مهمتنا :</h1>
+                        <p class="text-white mb-0">
+                            تسعى الشركة جاهدة لتحقيق هدفها الرئيسي وهو تحقيق الجودة العالية" لتكون اسم على مسمى، وتعكس
+                            هذه
+                            الرؤية التزامها
+                            بتقديم أفضل المنتجات والخدمات وقد ساعد هذا الالتزام الشركة
+                            على الحفاظ على مكانة قوية في السوق وبناء
+                            قائمة طويلة من العملاء الأوفياء.
+                        </p>
+                    </div>
+                    <div class="col-md-5 text-md-end wow fadeIn" data-wow-delay="0.5s">
+                        <a class="btn btn-lg btn-secondary rounded-pill py-3 px-5" href="contact.html#loacte">زيارة
+                            الآن</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- نهاية زيارة الشركة -->
+
+
+
+
+    <!-- بداية الفوتر -->
+    <div class="container-fluid bg-dark footer mt-5 pt-5 wow fadeIn" dir="ltr" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h1 class="fw-bold text-primary mb-4">
+                        High <span class="text-secondary">Quality </span>
+                    </h1>
+                    <p>
+                        إذا كان لديكم أي استفسارات أو كنتم ترغبون في معرفة المزيد عن شركتنا.
+                        فلا تترددوا بالاتصال بنا في أي وقت...
+                    <p>
+                        If you have any inquiries or would like to know more about our company
+                        Do not hesitate to contact us at any time
+                    </p>
+
+                    </p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-light rounded-circle ms-1" href><i
+                                class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle ms-1" href><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle ms-1" href><i
+                                class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle ms-0" href><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" dir="rtl">
+                    <h4 class="text-light mb-4">العنوان</h4>
+                    <p>
+                        <i class="fa fa-map-marker-alt ms-3"> </i> <span class="ms-1"> المركز الرئيسي : </span>
+                        الرياض العزيزية 2780 ش امان بن الحكم 8801
+                    <p> الرمز البريدي : 14818
+                    </p>
+                    </p>
+
+
+
+                    <p><i class="fa fa-phone-alt ms-3"></i>0505501985</p>
+                    <p><i class="fa fa-envelope ms-3"></i>HIGHQUALITY.SA@GMAIL.COM</p>
+                </div>
+                <div class="col-lg-4 col-md-6">
+
+                    <h4 class="text-light mb-4">روابط سريعة</h4>
+                    <a class="btn btn-link" href="#about">عنا</a>
+                    <a class="btn btn-link" href="contact.html">تواصل معنا</a>
+                    <a class="btn btn-link" href="#spc">مميزاتنا</a>
+                    <a class="btn btn-link" href="#goal"> مهمتنا </a>
+                    <a class="btn btn-link" href="#penf">الكفائة</a>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="container-fluid copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a href="#"><span class=" text-primary ">
+                                High <span class="text-secondary">Quality </span>
+                            </span> 2024</a>، كل الحقوق محفوظة.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end " dir="rtl">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        تصميم بواسطة <a href="https://htmlcodex.com">ModWir ,LLC</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- نهاية الفوتر -->
+        </div>
+    
+    
+    
+            <div class="en">
+        
+        
+       <!-- Page Header Start -->
+<div class="container-fluid page-header wow fadeIn" dir="ltr" data-wow-delay="0.1s">
+    <div class="container">
+        <h1 class="display-3 mb-3 animated slideInDown">About Us!</h1>
+        <nav aria-label="breadcrumb animated slideInDown">
+            <ol class="breadcrumb mb-0">
+                <li class="breadcrumb-item"><a class="text-body" href="#">Home</a></li>
+                <li class="breadcrumb-item"><a class="text-body" href="#">Page</a></li>
+                <li class="breadcrumb-item text-dark active" aria-current="page">About Us</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+<!-- Page Header End -->
+
+<!-- About Section Start -->
+<div class="container-xxl py-5" id="about">
+    <div class="container">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                <div class="about-img position-relative overflow-hidden p-5 pe-0">
+                    <img class="img-fluid w-100" src="img/about2.png" />
+                </div>
+            </div>
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                <h1 class="display-6 mb-4 fw-bold m-0">The <span class="text-primary">High-Quality</span> Commercial
+                    Company</h1>
+                <p class="mb-4 text-center fw-bold">
+                    A leading company in the wholesale sale and distribution of vegetables, fruits, and food in the
+                    <span class="text-primary">Kingdom of Saudi Arabia</span>.
+                </p>
+                <p>
+                    <i class=" ms-1"></i>Founded in <span class="text-secondary">2010 AD</span>, it has built its
+                    reputation over the years as a <i class=" ms-1"></i><span class="text-primary">reliable</span>
+                    strategic partner in the supply sector, vegetable and fruit trade, and foodstuffs. Its efforts focus
+                    on providing high-quality products at reasonable prices.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About Section End -->
+
+<!-- Features Section Start -->
+<div class="container-fluid bg-light bg-icon my-5 py-6" id="penf">
+    <div class="container">
+        <div class="section-header text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s"
+            style="max-width: 500px">
+            <h1 class="display-5 mb-3">Efficiency and Quality Standards</h1>
+            <p>
+                The company's timeliness policy indicates its value for time. Commitment to quality and appropriate
+                pricing ensures effective meeting of customer expectations. The company owns exemplary warehouses
+                compliant with the specifications and standards of the Food and Drug Authority. It holds certifications
+                such as <span class="text-primary">ISO 9001, 22000</span> and has a modern fleet of air-conditioned
+                trucks and buses. This contributes to maintaining the temperature of goods at the required level,
+                ensuring their quality, and guaranteeing that only fresh and superior products reach the end consumer.
+                Our unparalleled expertise in logistics services and supply chain management ensures efficient and
+                reliable delivery operations to customers across the region. The company's human team reflects its
+                diversity, with <span class="text-secondary">over 100 employees</span> from various nationalities, all
+                experienced and competent in their respective fields. Our strong network of suppliers and farms provides
+                our services with professionalism and dedication, ensuring <span class="text-primary">credibility and
+                    trust in the quality of our products</span>...
+            </p>
+        </div>
+        <div class="py-5" id="spc"></div>
+        <div class="row g-4 ">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="bg-white text-center h-100 p-4 p-xl-5">
+                    <img class="img-fluid mb-4" src="img/icon-1.png" alt />
+                    <h4 class="mb-3">Natural Process</h4>
+                    <p class="mb-4">
+                        The cultivation process of vegetables and fruits naturally relies on environmentally friendly
+                        and pesticide-free agricultural methods. This ensures healthy and natural products of high
+                        quality, preserving ecological balance.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="bg-white text-center h-100 p-4 p-xl-5">
+                    <img class="img-fluid mb-4" src="img/icon-2.png" alt />
+                    <h4 class="mb-3">Organic Products</h4>
+                    <p class="mb-4">
+                        Organic products represent a healthy and sustainable choice, growing in ways that respect the
+                        environment and use pesticide-free agricultural methods. This approach is characterized by
+                        providing natural products of high quality, respecting biodiversity, and offering excellent
+                        nutritional value.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="bg-white text-center h-100 p-4 p-xl-5">
+                    <img class="img-fluid mb-4" src="img/icon-3.png" alt />
+                    <h4 class="mb-3">Biologically Safe</h4>
+                    <p class="mb-4">
+                        The term "biologically safe" indicates that products are produced using organic agricultural
+                        methods that maintain soil health and protect the environment, contributing to providing
+                        pesticide-free and harmful substance-free food products.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Features Section End -->
+
+<!-- Company Mission Start -->
+<div class="py-5" id="goal">
+    <div class="container-fluid bg-primary bg-icon mt-5 py-6">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-md-7 wow fadeIn" data-wow-delay="0.1s">
+                    <h1 class="display-5 text-white mb-3">Our Mission:</h1>
+                    <p class="text-white mb-0">
+                        The company strives to achieve its main goal of "achieving high quality" to be a name of
+                        integrity. This vision reflects its commitment to providing the best products and services,
+                        helping the company maintain a strong position in the market and build a long list of loyal
+                        customers.
+                    </p>
+                </div>
+                <div class="col-md-5 text-md-end wow fadeIn" data-wow-delay="0.5s">
+                    <a class="btn btn-lg btn-secondary rounded-pill py-3 px-5" href="contact.html#loacte">Visit
+                        Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Company Mission End -->
+
+        
+                <!-- Start of Footer -->
+                <div class="container-fluid bg-dark footer mt-5 pt-5 wow fadeIn" dir="ltr" data-wow-delay="0.1s">
+                    <div class="container py-5">
+                        <div class="row g-5">
+                            <div class="col-lg-3 col-md-6">
+                                <h1 class="fw-bold text-primary mb-4">
+                                    High <span class="text-secondary">Quality </span>
+                                </h1>
+                                <p>
+                                    If you have any inquiries or would like to know more about our company, do not hesitate to
+                                    contact us at any time.
+                                </p>
+                                <p>
+                                    إذا كان لديكم أي استفسارات أو كنتم ترغبون في معرفة المزيد عن شركتنا، فلا تترددوا بالاتصال
+                                    بنا في أي وقت.
+                                </p>
+                                <div class="d-flex pt-2">
+                                    <a class="btn btn-square btn-outline-light rounded-circle ms-1" href="#"><i
+                                            class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-outline-light rounded-circle ms-1" href="#"><i
+                                            class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-outline-light rounded-circle ms-1" href="#"><i
+                                            class="fab fa-youtube"></i></a>
+                                    <a class="btn btn-square btn-outline-light rounded-circle ms-0" href="#"><i
+                                            class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6" dir="ltr">
+                                <h4 class="text-light mb-4">Address</h4>
+                                <p>
+                                    <i class="fa fa-map-marker-alt ms-3"></i> <span class="ms-1">Main Center:</span>
+                                    Riyadh, Al-Azizia 2780 Aman bin Al-Hakam Street 8801
+                                </p>
+                                <p>Postal Code: 14818</p>
+                                <p><i class="fa fa-phone-alt ms-3"></i>0505501985</p>
+                                <p><i class="fa fa-envelope ms-3"></i>HIGHQUALITY.SA@GMAIL.COM</p>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <h4 class="text-light mb-4">Quick Links</h4>
+                                <a class="btn btn-link" href="#about">About Us</a>
+                                <a class="btn btn-link" href="contact.html">Contact Us</a>
+                                <a class="btn btn-link" href="#spc">Our Features</a>
+                                <a class="btn btn-link" href="#goal">Our Mission</a>
+                                <a class="btn btn-link" href="#penf">Efficiency</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid copyright">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                                    &copy; <a href="#"><span class=" text-primary ">
+                                            High <span class="text-secondary">Quality </span>
+                                        </span> 2024</a>, All rights reserved.
+                                </div>
+                                <div class="col-md-6 text-center text-md-end" dir="ltr">
+                                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                                    Designed by <a href="https://htmlcodex.com">ModWir, LLC</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Footer -->
+            </div>
+    
+    
+    
+    
+    
+    
+    </div>
+</div>
+<!-- Back to Top -->
+<a href="#home" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
+    class="bi bi-arrow-up"></i></a>
+
+</div>
+<!-- JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="lib/wow/wow.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/waypoints/waypoints.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+<!-- Template Javascript -->
+<script src="js/main.js"></script>
+
+
+<script src="js/script.js"></script>
+</body>
+
+</html>
