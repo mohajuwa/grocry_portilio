@@ -1313,16 +1313,6 @@ ul.product-share li:hover a {
   color: #ffe200;
 }
 
-.single-product-item {
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-}
-
-.single-product-item:hover {
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
 
 .search-bar-tablecell button[type=submit] {
   -webkit-transition: 0.3s;
@@ -2401,9 +2391,6 @@ ul.social-link-team li a {
   color: #fff;
 }
 
-.single-product-item {
-  margin-bottom: 30px;
-}
 
 .product-image {
   padding: 30px;
@@ -2416,11 +2403,6 @@ ul.social-link-team li a {
   margin-bottom: 20px;
 }
 
-.single-product-item h3 {
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 10px;
-}
 
 p.product-price {
   font-family: 'Poppins', sans-serif;
@@ -2448,38 +2430,6 @@ a.cart-btn i {
   margin-right: 5px;
 }
 
-.single-product-img img {
-  border-radius: 5px;
-  -webkit-box-shadow: 0 0 20px #ddd;
-  box-shadow: 0 0 20px #ddd;
-}
-
-.single-product-content h3 {
-  font-size: 22px;
-  font-weight: 600;
-}
-
-p.single-product-pricing span {
-  font-size: 18px;
-  display: block;
-  opacity: 0.8;
-  margin-bottom: 10px;
-  font-weight: 400;
-}
-
-.single-product-content p {
-  font-size: 15px;
-  color: #555;
-  line-height: 1.8;
-}
-
-.single-product-content p.single-product-pricing {
-  font-size: 32px;
-  font-weight: 700;
-  margin-bottom: 10px;
-  color: #051922;
-  line-height: inherit;
-}
 
 input[type="number"] {
   border: 1px solid #ddd;
@@ -2489,15 +2439,6 @@ input[type="number"] {
   margin-bottom: 15px;
 }
 
-.single-product-form a.cart-btn {
-  margin-bottom: 15px;
-}
-
-.single-product-content h4 {
-  font-size: 20px;
-  font-weight: 600;
-  margin-top: 35px;
-}
 
 ul.product-share {
   margin: 0;
@@ -2515,9 +2456,6 @@ ul.product-share li a {
   margin-right: 10px;
 }
 
-.single-product-content {
-  margin-left: 30px;
-}
 
 table.cart-table {
   border: 1px solid #f9f9f9;
@@ -2714,13 +2652,6 @@ table.order-details tbody td {
 
 .card.single-accordion {
   border: 1px solid #eeeeee;
-}
-
-.single-product-item {
-  -webkit-box-shadow: 0 0 20px #e4e4e4;
-  box-shadow: 0 0 20px #e4e4e4;
-  padding-bottom: 50px;
-  border-radius: 5px;
 }
 
 /* -----------------------------------------------------------------------------
